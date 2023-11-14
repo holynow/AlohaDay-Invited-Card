@@ -1,0 +1,27 @@
+.hide{display: none!important;}
+.op0{opacity: 0!important;}
+.content{position: relative; overflow: hidden;}
+.img-wrap {position: relative; width: 100%;}
+.img-wrap .detail img {width: 100%;}
+.img-wrap .detail {position: relative;}
+.img-wrap .deco {position: absolute; top: 4.1%; left: 0; z-index: 1; width: 100%;}
+.img-wrap .deco img {width: 100%;}
+.link{position: absolute; display: block; width: 100%;}
+.map.link {bottom:16.7%; height: 10%;}
+.kakao.link {bottom:4.4%; height: 2.5%;}
+.guide-txt {font-size: 12px; color: #777; letter-spacing: -0.025em; text-align: center; margin-top: 20px;}
+.arrow-swipe {animation: leftSwipe 1s infinite ease-in-out ;}
+.img-area {position: absolute; top:50.2%;}
+.photo-swiper.swiper-container{width: 100vw;}
+.photo-swiper.swiper-container .swiper-wrapper {display: flex; align-items: center;}
+.photo-swiper.swiper-container .swiper-slide .img {width: 100vw;}
+.swiper-button-prev,.swiper-button-next  {color: #fff; opacity: .7; }
+.swiper-button-prev:after,.swiper-button-next:after{font-size:25px;}
+@keyframes leftSwipe {
+from{
+    transform: translateX(-10px);
+}
+to {
+    transform: translateX(-20px);
+}
+}
